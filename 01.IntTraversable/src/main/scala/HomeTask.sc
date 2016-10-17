@@ -1,9 +1,10 @@
+// Abramov Ivan
+//
+// TODO Прочитайте содержимое данного файла.
+// В случае неудачи верните сообщение соответствующего исключения.
+
 import java.io.{FileNotFoundException, IOException}
 
-/*
-TODO Прочитайте содержимое данного файла.
-В случае неудачи верните сообщение соответствующего исключения.
- */
 def readThisWorksheet(): String = {
   val pathToFile = "GitHub/Scala/01.IntTraversable/src/main/scala/HomeTask.sc"
   val file = scala.io.Source.fromFile(pathToFile)
